@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Profil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="web.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#social">Social Media</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Dewati Anjasmita HendriYanto</h1>
+        <img id="profilePicture" src="WhatsApp Image 2024-08-30 at 23.28.08.jpeg" alt="Gambar Profil" width="160" height="200">
+
+        <button id="themeToggle">Toggle Theme</button>
+
+        <!-- About Me Section -->
+        <h2 id="about">About Me</h2>
+        <p>Hi, I'm Dewati Anjasmita HendriYanto. I was born in March, and I'm <span id="age"></span> years old this year. Currently, I live in Bandar Lampung, but my original domicile is in Central Lampung. I study at the University of Lampung, pursuing a bachelor's degree in Information Technology Education.</p>
+
+        <!-- Contact Section -->
+        <h2 id="contact">Personal Contact</h2>
+        <ul>
+            <li>Email: <a href="mailto:anjasmita2@gmail.com">anjasmita2@gmail.com</a></li>
+            <li>Telepon: 085896919868</li>
+        </ul>
+
+        <!-- Social Media Section -->
+        <h2 id="social">Social Media</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/dwtimtaa?igsh=MTVwOXVsNnFyNW5uZQ==">Instagram</a></li>
+            <li><a href="https://x.com/tataimoett?t=eWyRPlz5kPmlEyYnSSRtIQ&s=08">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/dewati-anjasmita-331418291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+        </ul>
+
+        <!-- Feedback Section -->
+        <h2 id="feedback">Feedback</h2>
+        <form id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
